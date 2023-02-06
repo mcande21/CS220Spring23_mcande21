@@ -1,0 +1,6 @@
+/*
+ * n - integer being converted
+ * buff - the string that will hold the result. buff must be
+ *        big enough to hold the result.
+ */
+void int2hex(unsigned int n, char buff[]);
