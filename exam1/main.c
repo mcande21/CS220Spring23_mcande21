@@ -4,13 +4,13 @@
 
 int main() {
 
-    int n=0;
+    unsigned int n;
     while (n!=-1){
-    printf("Number: ");
-    scanf("%d", &n);
-    if (n != -1){
-    printf("%d\n", fives_and_nines(n));}
-    else{
-    printf("Goodbye.");}
-}
-}
+        printf("Number: ");
+        scanf("%u", &n);
+    	printf("%u\n", fives_and_nines(n));
+} // while()
+
+    printf("Goodbye.\n");
+
+}//main()
