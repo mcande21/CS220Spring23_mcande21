@@ -6,7 +6,7 @@
 int main(int argc, char *argv[]) {
 
     int x = 0;
-    if(argc != 3) {
+    if(argc == 4) {
 	int x = dow(atoi(argv[1]),atoi(argv[2]),atoi(argv[3]));
         if(x == 5){
             printf("Monday\n");}
